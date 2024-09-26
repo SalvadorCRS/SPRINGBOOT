@@ -1,0 +1,46 @@
+# Ignorar directorios de compilación
+target/
+build/
+
+# Ignorar archivos de configuración sensibles
+application.properties
+application.yml
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# Ignorar archivos generados por NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignorar archivos generados por Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Excepciones para mantener directorios específicos (si es necesario)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos temporales y de respaldo
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos del sistema operativo (ejemplo para macOS)
+.DS_Store
